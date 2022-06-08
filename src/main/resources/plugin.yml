@@ -1,0 +1,10 @@
+main: com.neptunex.kafka.Kafka
+name: Kafka
+author: Rokuko
+version: 1.0-SNAPSHOT
+api-version: 1.13
+commands:
+  eternal:
+    aliases:
+      - et
+    description: "插件主命令"
