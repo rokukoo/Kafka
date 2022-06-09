@@ -17,7 +17,16 @@ repositories {
 }
 
 dependencies {
+
+    // lombok
+    compileOnly("org.projectlombok:lombok:1.18.8")
+    annotationProcessor("org.projectlombok:lombok:1.18.8")
+    testCompileOnly("org.projectlombok:lombok:1.18.8")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.8")
+
+    // spigot-api
     compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT")
+
     testImplementation(kotlin("test"))
 }
 

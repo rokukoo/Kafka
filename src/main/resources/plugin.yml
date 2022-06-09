@@ -6,5 +6,5 @@ api-version: 1.13
 commands:
   eternal:
     aliases:
-      - et
+      - kafka
     description: "插件主命令"
